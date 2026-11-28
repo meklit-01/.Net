@@ -14,3 +14,20 @@ DescribeService service = new();
 service.Describe(10);
 service.Describe("Addis Eats");
 service.Describe(250.50m);
+
+//Exercise 3
+
+Restaurant restaurant = new()
+{
+    Id = 1,
+    Name = "Addis",
+    Area = "Bole"
+};
+
+Console.WriteLine(restaurant.Id);
+Console.WriteLine(restaurant.Name);
+Console.WriteLine(restaurant.DisplayName);
+// Change the name
+restaurant.Name = "Bole Burger";
+
+Console.WriteLine(restaurant.DisplayName);
