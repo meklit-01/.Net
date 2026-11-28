@@ -31,3 +31,9 @@ Console.WriteLine(restaurant.DisplayName);
 restaurant.Name = "Bole Burger";
 
 Console.WriteLine(restaurant.DisplayName);
+
+//Exercise 4
+Customer customer1 = new("Abebe", "0912345678");
+Customer customer2 = new("Abebe", "0912345678");
+
+Console.WriteLine(customer1 == customer2);
